@@ -13,6 +13,7 @@
  hello **** baby
 ```
 敏感词包括政治、脏话等话题词汇。其原理主要是基于词典的查找（项目中的keyword文件），内容很劲爆。。。
+实际在使用的时候是python3，会报没有Unicode的错误，查了相关的问题，是python3里面没有Unicode，修改为str就可以。
 
 **2\. langid：97种语言检测** [https://github.com/saffsd/langid.py](https://github.com/saffsd/langid.py)
 
